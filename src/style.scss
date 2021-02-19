@@ -1,0 +1,14 @@
+body {
+  background: #DDD;
+}
+
+.h1 {
+  animation: test 6s infinite;
+  text-align: center;
+}
+
+@keyframes test {
+  from {transform: scale(.8);}
+  50% {transform: scale(1);}
+  to {transform: scale(.8);}
+}
