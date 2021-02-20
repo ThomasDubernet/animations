@@ -1,0 +1,10 @@
+@for $i from 1 through 6 {
+  h#{$i}, .h#{$i} {
+    font-family: 'Amiri';
+    font-weight: 500;
+  }
+}
+
+a, span, p, li {
+  font-family: 'Amiri';
+}
